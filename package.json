@@ -1,0 +1,22 @@
+{
+  "name": "dummy-changelog-gen-pr",
+  "version": "1.0.0",
+  "description": "This is just test",
+  "main": "index.js",
+  "repository": "git@github.com:dham6983/dummy-changelog-gen-pr.git",
+  "author": "dham6983@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna-changelog": "^1.0.1"
+  },
+  "changelog": {
+      "labels": {
+        "feature": "New Feature",
+        "bug": "Bug Fix",
+        "perf": "Performance Improvement"
+      }
+  },
+  "scripts": {
+    "release-with-changelog" : "lerna-changelog"
+  }
+}
